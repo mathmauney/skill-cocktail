@@ -46,7 +46,7 @@ def nice_ingredients(ingredients):
     return ret
 
 class CocktailSkill(MycroftSkill):
-    @intent_file_handler('Recipie.intent')
+    @intent_file_handler('Recipe.intent')
     def get_recipie(self, message):
         cocktail = search_cocktail(message.data['drink'])
         if cocktail:

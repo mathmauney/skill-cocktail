@@ -1,5 +1,5 @@
 {
   "utterance": "how do i mix a daiquiri",
-  "intent_type": "Recipie.intent",
+  "intent_type": "Recipe.intent",
   "expected_dialog": "YouWillNeed"
 }
